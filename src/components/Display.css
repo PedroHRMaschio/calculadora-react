@@ -1,0 +1,11 @@
+.display {
+    grid-column: span 4;
+    background-color: slategrey;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    font-size: 2.3em;
+    overflow: hidden; /* diz que quando der overflow, não vai sobrepôr outros componentes */
+}
